@@ -1,5 +1,6 @@
 <script>
-  import { darkMode, paletteColor } from "./lib/var";
+  import { paletteColor } from "./lib/var";
+  let darkMode = false;
 </script>
 
 <main
