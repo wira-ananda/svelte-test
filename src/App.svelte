@@ -1,7 +1,5 @@
 <script>
-  import palette from "./utils/palette";
-  let darkMode = false;
-  const paletteColor = palette.background;
+  import { darkMode, paletteColor } from "./lib/var";
 </script>
 
 <main
@@ -23,6 +21,7 @@
 <style>
   main {
     text-align: center;
+    align-items: center;
     padding: 2rem;
     width: 30vw;
     border-radius: 2rem;
